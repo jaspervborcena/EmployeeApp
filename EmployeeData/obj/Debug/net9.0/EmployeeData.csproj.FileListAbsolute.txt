@@ -1,0 +1,12 @@
+C:\EmployeeApp\EmployeeData\bin\Debug\net9.0\EmployeeData.deps.json
+C:\EmployeeApp\EmployeeData\bin\Debug\net9.0\EmployeeData.dll
+C:\EmployeeApp\EmployeeData\bin\Debug\net9.0\EmployeeData.pdb
+C:\EmployeeApp\EmployeeData\obj\Debug\net9.0\EmployeeData.csproj.AssemblyReference.cache
+C:\EmployeeApp\EmployeeData\obj\Debug\net9.0\EmployeeData.GeneratedMSBuildEditorConfig.editorconfig
+C:\EmployeeApp\EmployeeData\obj\Debug\net9.0\EmployeeData.AssemblyInfoInputs.cache
+C:\EmployeeApp\EmployeeData\obj\Debug\net9.0\EmployeeData.AssemblyInfo.cs
+C:\EmployeeApp\EmployeeData\obj\Debug\net9.0\EmployeeData.csproj.CoreCompileInputs.cache
+C:\EmployeeApp\EmployeeData\obj\Debug\net9.0\EmployeeData.dll
+C:\EmployeeApp\EmployeeData\obj\Debug\net9.0\refint\EmployeeData.dll
+C:\EmployeeApp\EmployeeData\obj\Debug\net9.0\EmployeeData.pdb
+C:\EmployeeApp\EmployeeData\obj\Debug\net9.0\ref\EmployeeData.dll

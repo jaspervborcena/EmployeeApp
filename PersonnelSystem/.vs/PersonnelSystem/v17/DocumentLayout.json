@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\PersonnelSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C468C542-6E23-43F5-BB49-E139F4C6B04F}|..\\DataLayer\\DataLayer.csproj|c:\\projects\\datalayer\\compiledmodels\\employeeentitytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C468C542-6E23-43F5-BB49-E139F4C6B04F}|..\\DataLayer\\DataLayer.csproj|c:\\projects\\datalayer\\compiledmodels\\appdbcontextassemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 104,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeEntityType.cs",
+              "DocumentMoniker": "C:\\Projects\\DataLayer\\CompiledModels\\EmployeeEntityType.cs",
+              "RelativeDocumentMoniker": "..\\DataLayer\\CompiledModels\\EmployeeEntityType.cs",
+              "ToolTip": "C:\\Projects\\DataLayer\\CompiledModels\\EmployeeEntityType.cs",
+              "RelativeToolTip": "..\\DataLayer\\CompiledModels\\EmployeeEntityType.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T14:14:49.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContextAssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Projects\\DataLayer\\CompiledModels\\AppDbContextAssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "..\\DataLayer\\CompiledModels\\AppDbContextAssemblyAttributes.cs",
+              "ToolTip": "C:\\Projects\\DataLayer\\CompiledModels\\AppDbContextAssemblyAttributes.cs",
+              "RelativeToolTip": "..\\DataLayer\\CompiledModels\\AppDbContextAssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T14:14:47.228Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 296,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

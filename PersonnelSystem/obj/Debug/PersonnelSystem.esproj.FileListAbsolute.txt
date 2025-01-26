@@ -1,0 +1,2 @@
+C:\Projects\PersonnelSystem\obj\Debug\PersonnelSystem.esproj.CoreCompileInputs.cache
+C:\EmployeeApp\PersonnelSystem\obj\Debug\PersonnelSystem.esproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+C:\EmployeeApp\EmployeeBusiness\obj\Debug\net9.0\EmployeeBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\EmployeeApp\EmployeeBusiness\obj\Debug\net9.0\EmployeeBusiness.AssemblyInfoInputs.cache
+C:\EmployeeApp\EmployeeBusiness\obj\Debug\net9.0\EmployeeBusiness.AssemblyInfo.cs
+C:\EmployeeApp\EmployeeBusiness\obj\Debug\net9.0\EmployeeBusiness.csproj.CoreCompileInputs.cache
+C:\EmployeeApp\EmployeeBusiness\bin\Debug\net9.0\EmployeeBusiness.deps.json
+C:\EmployeeApp\EmployeeBusiness\bin\Debug\net9.0\EmployeeBusiness.dll
+C:\EmployeeApp\EmployeeBusiness\bin\Debug\net9.0\EmployeeBusiness.pdb
+C:\EmployeeApp\EmployeeBusiness\bin\Debug\net9.0\EmployeeData.dll
+C:\EmployeeApp\EmployeeBusiness\bin\Debug\net9.0\EmployeeData.pdb
+C:\EmployeeApp\EmployeeBusiness\obj\Debug\net9.0\EmployeeBusiness.csproj.AssemblyReference.cache
+C:\EmployeeApp\EmployeeBusiness\obj\Debug\net9.0\Employee.5F4F75A1.Up2Date
+C:\EmployeeApp\EmployeeBusiness\obj\Debug\net9.0\EmployeeBusiness.dll
+C:\EmployeeApp\EmployeeBusiness\obj\Debug\net9.0\refint\EmployeeBusiness.dll
+C:\EmployeeApp\EmployeeBusiness\obj\Debug\net9.0\EmployeeBusiness.pdb
+C:\EmployeeApp\EmployeeBusiness\obj\Debug\net9.0\ref\EmployeeBusiness.dll
