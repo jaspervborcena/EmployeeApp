@@ -84,3 +84,88 @@ ul {
     ul li:hover {
       background-color: #f1f1f1;
     }
+
+
+    /*///*/
+
+/* Wrapper for full viewport */
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  background-color: #f9f9f9; /* Optional: Light background for clarity */
+}
+
+/* Center the form content */
+.form-container {
+  text-align: center; /* Centers the `h3` and aligns the form fields */
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow for better visibility */
+  width: 100%;
+  max-width: 400px; /* Keeps the form narrow and centered */
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left; /* Aligns labels and inputs to the left */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select {
+  height: auto;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+  button[type="button"] {
+    background-color: #f44336;
+  }
+
+    button[type="button"]:hover {
+      background-color: #d32f2f;
+    }
+
+  button:hover {
+    background-color: #45a049;
+  }
+.compact-dropdown {
+  font-size: 14px; /* Adjust text size */
+  padding: 4px 8px; /* Add padding for a compact feel */
+  width: 200px; /* Set a smaller width */
+  height: auto; /* Ensure it adjusts to content height */
+  border: 1px solid #ccc; /* Add a subtle border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+  .compact-dropdown:disabled {
+    background-color: #f5f5f5; /* Slightly gray background when disabled */
+    cursor: not-allowed; /* Show not-allowed cursor when disabled */
+  }

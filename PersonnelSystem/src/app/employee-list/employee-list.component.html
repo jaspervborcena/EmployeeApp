@@ -1,30 +1,94 @@
 <div class="container">
   <!-- Dropdown to select a manager -->
-  <label for="managerDropdown">Select Manager:</label>
-  <select id="managerDropdown" (change)="onManagerChange($event)">
-    <option value="" disabled selected>Select a Manager</option>
-    <option *ngFor="let manager of managers" [value]="manager.employeeID">
-      {{ manager.firstName }} {{ manager.lastName }}
-    </option>
-  </select>
+  <div [hidden]="isAddingEmployee">
+    <label for="managerDropdown">Select Manager:</label>
+    <select id="managerDropdown"
+            class="compact-dropdown"
+            (change)="onManagerChange($event)"
+            [disabled]="isAddingEmployee">
+      <option value="" disabled selected>Select a Manager</option>
+      <option *ngFor="let manager of managers" [value]="manager.employeeID">
+        {{ manager.firstName }} {{ manager.lastName }}
+      </option>
+    </select>
 
-  <!-- Show grid with employees under selected manager -->
-  <table class="grid">
-    <thead>
-      <tr>
-        <th>Employee ID</th>
-        <th>Last Name</th>
-        <th>First Name</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let employee of employeesUnderManager">
-        <td>{{ employee.employeeID }}</td>
-        <td>{{ employee.lastName }}</td>
-        <td>{{ employee.firstName }}</td>
-      </tr>
-    </tbody>
-  </table>
 
-  <!-- Display selected employee details -->
-</div>
+    <!-- Show grid with employees under selected manager -->
+
+    <table class="grid">
+      <thead>
+        <tr>
+          <th>Employee ID</th>
+          <th>Last Name</th>
+          <th>First Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let employee of employeesUnderManager">
+          <td>{{ employee.employeeID }}</td>
+          <td>{{ employee.lastName }}</td>
+          <td>{{ employee.firstName }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <button (click)="toggleAddEmployeeForm()" [disabled]="isAddingEmployee">Add Employee</button>
+  </div>
+
+  <!-- Add Employee Form Button -->
+  <!-- Add Employee Form -->
+  <div [hidden]="!isAddingEmployee">
+    <div class="form-wrapper">
+      <div class="form-container">
+        <div *ngIf="successMessage" class="success-message">
+          {{ successMessage }}
+        </div>
+        <h3>Add New Employee</h3>
+        <!-- Manager -->
+
+        <form [formGroup]="employeeForm" (ngSubmit)="addEmployee()">
+          <div class="form-group">
+            <label for="managerId">Manager:</label>
+            <select formControlName="managerId" id="managerId" required>
+              <option *ngFor="let manager of managers" [value]="manager.employeeID">
+                {{ manager.firstName }} {{ manager.lastName }}
+              </option>
+            </select>
+          </div>
+
+          <!-- Employee ID -->
+          <div class="form-group">
+            <label for="employeeID">Employee ID:</label>
+            <input id="employeeID" formControlName="employeeID" type="number" />
+          </div>
+
+          <!-- First Name -->
+          <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input id="firstName" formControlName="firstName" type="text" required />
+          </div>
+
+          <!-- Last Name -->
+          <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input id="lastName" formControlName="lastName" type="text" required />
+          </div>
+
+          <!-- Designation -->
+          <div class="form-group">
+            <label for="designation">Designation:</label>
+            <select formControlName="designationID" id="designationID" required>
+              <option *ngFor="let designation of designations" [ngValue]="designation.designationID">
+                {{ designation.title }}
+              </option>
+            </select>
+          </div>
+
+
+          <!-- Buttons -->
+          <button type="submit" [disabled]="!employeeForm.valid">Save Employee</button>
+          <button type="button" (click)="toggleAddEmployeeForm()">Back</button>
+        </form>
+      </div>
+    </div>
+    </div>
+
